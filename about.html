@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Akishga</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">Akishga Vaikundasekar Parameswari</div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+      <section class="work-experience">
+        <h2 class="section-title">My Work Experience</h2>
+        <div class="timeline">
+      
+          <div class="timeline-row">
+            <div class="timeline-left">
+              <h3>Emerald Ice Cream, Ireland - Georgetown Universty</h3>
+              <p>Jan 2025 – Mar 2025</p>
+            </div>
+            <div class="timeline-dot red"></div>
+            <div class="timeline-right">
+              <h3>Business Consultant</h3>
+              <p>
+                Designed a U.S. market entry and sustainability strategy for an artisanal ice cream brand. Proposed eco-packaging and digital marketing campaigns to help them capture 1% of the $2.19B U.S. premium market.
+              </p>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-left">
+              <h3>Ayya Vaikundar Pvt. Ltd., India</h3>
+              <p>Sep 2022 – Jul 2024</p>
+            </div>
+            <div class="timeline-dot dark"></div>
+            <div class="timeline-right">
+              <h3>Founder & Technical Lead</h3>
+              <p>
+                Digitized wholesale operations with ERP & CRM, launched a customer app, and introduced predictive analytics to reduce overstocking by 20%. Migrated legacy systems to cloud infrastructure.
+              </p>
+            </div>
+          </div>
+      
+          <div class="timeline-row">
+            <div class="timeline-left">
+              <h3>Cognizant Technology Solutions</h3>
+              <p>Jan 2022 – Jul 2022</p>
+            </div>
+            <div class="timeline-dot red"></div>
+            <div class="timeline-right">
+              <h3>Programmer Analyst Intern</h3>
+              <p>
+                Built a healthcare system to reduce patient wait times by 25%. Integrated 256-bit encryption and deployed Tableau dashboards to monitor patient outcomes and system performance in real time.
+              </p>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+      <section class="fun-facts">
+        <h2 class="section-title">Fun Facts About Me 🐿️✨</h2>
+      
+        <label for="fun-facts-select">Pick a fun fact:</label>
+        <select id="fun-facts-select" onchange="showFact(this.value)">
+          <option value="">-- Choose one --</option>
+          <option value="🐿️ I rescu squirrels.">🐿️ I’ve rescued two squirrels and named them.</option>
+          <option value="📊 I genuinely enjoy working with Tableau & R.">📊 I genuinely enjoy working with Tableau & R.</option>
+        </select>
+      
+        <p id="displayed-fact" class="display-fact">🩷 Select a fact above to reveal it here!</p>
+      </section>
+      
